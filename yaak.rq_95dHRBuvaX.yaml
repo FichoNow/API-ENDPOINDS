@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_95dHRBuvaX
 createdAt: 2026-03-02T19:50:47.507395400
-updatedAt: 2026-03-02T20:04:50.412709900
+updatedAt: 2026-03-03T10:43:21.919756700
 workspaceId: wk_KKeaMNGpRV
-folderId: null
+folderId: fl_gB3G28XJ6h
 authentication: {}
 authenticationType: null
 body:
@@ -20,7 +20,7 @@ headers:
   value: application/json
   id: UzGsi3QWpY
 method: POST
-name: Refresh-token
-sortPriority: -1772133376583.0
+name: Refresh
+sortPriority: 1000.0
 url: http://localhost:3001/auth/refresh
 urlParameters: []

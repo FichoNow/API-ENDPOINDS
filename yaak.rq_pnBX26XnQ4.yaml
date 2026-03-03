@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_pnBX26XnQ4
 createdAt: 2026-03-01T19:17:46.266522200
-updatedAt: 2026-03-02T19:52:06.910383900
+updatedAt: 2026-03-03T10:43:13.657160700
 workspaceId: wk_KKeaMNGpRV
 folderId: null
 authentication:
@@ -14,6 +14,6 @@ description: ''
 headers: []
 method: GET
 name: Get hello
-sortPriority: -1772133376583.0
+sortPriority: 2000.0
 url: http://localhost:3001/private/hello
 urlParameters: []
