@@ -1,0 +1,23 @@
+type: http_request
+model: http_request
+id: rq_sewTJHegBm
+createdAt: 2026-03-03T11:46:40.499963
+updatedAt: 2026-03-03T14:06:54.790806
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_b7S7FNujNP
+authentication: {}
+authenticationType: null
+body:
+  text: "{\n  \"name\": \"Jan\", \n  \"password\": \"1234\"\n}"
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: Y22QZCmA8A
+method: POST
+name: Create user
+sortPriority: 1000.0
+url: http://localhost:3001/auth/create
+urlParameters: []
