@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_TWvA5SmzWv
+createdAt: 2026-03-03T10:42:22.186505800
+updatedAt: 2026-03-03T10:42:34.959697400
+workspaceId: wk_KKeaMNGpRV
+folderId: null
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: ''
+sortPriority: -1772133376583.0
+url: prueba aafasf
+urlParameters: []
