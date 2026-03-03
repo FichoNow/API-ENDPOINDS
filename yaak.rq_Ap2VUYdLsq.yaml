@@ -1,0 +1,31 @@
+type: http_request
+model: http_request
+id: rq_Ap2VUYdLsq
+createdAt: 2026-02-26T19:16:16.585219100
+updatedAt: 2026-03-02T20:04:39.742357900
+workspaceId: wk_KKeaMNGpRV
+folderId: null
+authentication: {}
+authenticationType: none
+body:
+  text: "{\n  \"name\": \"Jan\", \n  \"password\": \"1234\"\n}"
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: ''
+  value: ''
+  id: jBSvNBrPdc
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: ixJ73i5pdE
+method: POST
+name: Login
+sortPriority: -1772133376583.0
+url: http://localhost:3001/auth/login
+urlParameters:
+- enabled: true
+  name: ''
+  value: ''
+  id: xp45m7sJkM

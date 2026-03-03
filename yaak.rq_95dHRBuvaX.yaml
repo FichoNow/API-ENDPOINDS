@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_95dHRBuvaX
+createdAt: 2026-03-02T19:50:47.507395400
+updatedAt: 2026-03-02T20:04:50.412709900
+workspaceId: wk_KKeaMNGpRV
+folderId: null
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "refreshToken": "kPWBPV8AbMSJQNp9sByLV_K96kPppqWcBTQ0bfJUIbhQD5UtGjG85qrCu_JDCYj9Le-nxT9bE1duRQPASL82Ng"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: UzGsi3QWpY
+method: POST
+name: Refresh-token
+sortPriority: -1772133376583.0
+url: http://localhost:3001/auth/refresh
+urlParameters: []
