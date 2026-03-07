@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_sewTJHegBm
 createdAt: 2026-03-03T11:46:40.499963
-updatedAt: 2026-03-03T14:06:54.790806
+updatedAt: 2026-03-07T12:11:58.240658300
 workspaceId: wk_KKeaMNGpRV
-folderId: fl_b7S7FNujNP
+folderId: fl_gB3G28XJ6h
 authentication: {}
 authenticationType: null
 body:
@@ -18,6 +18,6 @@ headers:
   id: Y22QZCmA8A
 method: POST
 name: Create user
-sortPriority: 1000.0
+sortPriority: 2000.0
 url: http://localhost:3001/auth/create
 urlParameters: []
