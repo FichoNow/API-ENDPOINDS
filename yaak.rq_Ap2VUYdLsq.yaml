@@ -2,13 +2,13 @@ type: http_request
 model: http_request
 id: rq_Ap2VUYdLsq
 createdAt: 2026-02-26T19:16:16.585219100
-updatedAt: 2026-03-07T12:11:58.225191600
+updatedAt: 2026-03-15T12:25:01.515271500
 workspaceId: wk_KKeaMNGpRV
 folderId: fl_gB3G28XJ6h
 authentication: {}
 authenticationType: none
 body:
-  text: "{\n  \"name\": \"Jan\", \n  \"password\": \"1234\"\n}"
+  text: "{\n  \"email\": \"admin@empresa.com\", \n  \"password\": \"bat123\"\n}"
 bodyType: application/json
 description: ''
 headers:
@@ -23,7 +23,7 @@ headers:
 method: POST
 name: Login
 sortPriority: 0.0
-url: http://localhost:3001/auth/login
+url: http://localhost:3000/auth/login
 urlParameters:
 - enabled: true
   name: ''
