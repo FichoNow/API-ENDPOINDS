@@ -1,0 +1,24 @@
+type: http_request
+model: http_request
+id: rq_dkYLjhgT7L
+createdAt: 2026-03-19T19:33:34.688132300
+updatedAt: 2026-03-19T19:42:04.868016900
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_jKhr7YWc7Z
+authentication:
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjIsImNvbXBhbnlJZCI6MSwiZ3JvdXBJZCI6MSwicm9sZSI6IkFETUlOSVNUUkFUT1IifSwiaWF0IjoxNzczOTQ4OTgwLCJleHAiOjE3NzM5NDk4ODAsImF1ZCI6IkZpY2hhamVBcHAtY2xpZW50IiwiaXNzIjoiQXBpLUZyYW4tSmFuIiwic3ViIjoiMiJ9.uGb_K5kuAIJnYEIWF6ChYxJ2687b4nfGDO8Fs33byts
+authenticationType: bearer
+body:
+  text: "{\n  \"name\": \"paquio Navarro\", \n}"
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: fcwYJKmGnq
+method: PATCH
+name: Update User
+sortPriority: 0.0
+url: http://localhost:3000/admin/user/3
+urlParameters: []
