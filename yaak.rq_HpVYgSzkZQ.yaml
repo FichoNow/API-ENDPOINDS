@@ -1,24 +1,33 @@
 type: http_request
 model: http_request
-id: rq_dkYLjhgT7L
-createdAt: 2026-03-19T19:33:34.688132300
-updatedAt: 2026-03-22T22:12:08.531677300
+id: rq_HpVYgSzkZQ
+createdAt: 2026-03-22T20:28:47.845861700
+updatedAt: 2026-03-22T22:10:50.660425800
 workspaceId: wk_KKeaMNGpRV
 folderId: fl_jKhr7YWc7Z
 authentication:
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjIsImNvbXBhbnlJZCI6MSwiZ3JvdXBJZCI6MSwicm9sZSI6IkFETUlOSVNUUkFUT1IifSwiaWF0IjoxNzc0MjE3MzUwLCJleHAiOjE3NzQyMTgyNTAsImF1ZCI6IkZpY2hhamVBcHAtY2xpZW50IiwiaXNzIjoiQXBpLUZyYW4tSmFuIiwic3ViIjoiMiJ9.mcfzc4Hh3aW6pxN8wnQlb0CCIH6moK4iuc-682rOKfA
 authenticationType: bearer
 body:
-  text: "{\n  \"name\": \"paquio Navarro\", \n}"
+  text: |-
+    {
+      "group_id": 1,
+      "email": "prueba@gmail.com",
+      "name": "string",
+      "role": "USER",
+      "job_title": "string",
+      "password": "string",
+      "is_active": true
+    }
 bodyType: application/json
 description: ''
 headers:
 - enabled: true
   name: Content-Type
   value: application/json
-  id: fcwYJKmGnq
-method: PATCH
-name: Update User
+  id: U8nAD9uiGk
+method: POST
+name: Create User
 sortPriority: 0.0
-url: http://localhost:3000/admin/user/3
+url: http://localhost:3000/admin/user
 urlParameters: []
