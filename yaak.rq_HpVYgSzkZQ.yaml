@@ -2,17 +2,17 @@ type: http_request
 model: http_request
 id: rq_HpVYgSzkZQ
 createdAt: 2026-03-22T20:28:47.845861700
-updatedAt: 2026-03-22T23:01:00.710086600
+updatedAt: 2026-03-25T00:10:42.941952400
 workspaceId: wk_KKeaMNGpRV
 folderId: fl_jKhr7YWc7Z
 authentication:
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjIsImNvbXBhbnlfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiQURNSU5JU1RSQVRPUiJ9LCJpYXQiOjE3NzQyMjA0NDIsImV4cCI6MTc3NDIyMTM0MiwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIyIn0.OnXlL6GEgv2UEZgQ6EtFIhqLmZxGQGkGds_98TZCWBg
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiQURNSU5JU1RSQVRPUiJ9LCJpYXQiOjE3NzQzOTcyNjgsImV4cCI6MTc3NDM5ODE2OCwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.jSedtu_l7LwAEK8hGUaTG8vFuKNUbXo-aoP6MSmfkMk
 authenticationType: bearer
 body:
   text: |-
     {
       "group_id": 1,
-      "email": "prueba@gmail.com",
+      "email": "pruebaaaaa@gmail.com",
       "name": "string",
       "role": "USER",
       "job_title": "string",

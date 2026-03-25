@@ -1,0 +1,42 @@
+type: http_request
+model: http_request
+id: rq_DJ4oyeoD2B
+createdAt: 2026-03-24T11:44:41.196179700
+updatedAt: 2026-03-24T11:48:33.970427600
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_jKhr7YWc7Z
+authentication:
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjIsImNvbXBhbnlfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiQURNSU5JU1RSQVRPUiJ9LCJpYXQiOjE3NzQzNTI4MDIsImV4cCI6MTc3NDM1MzcwMiwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIyIn0.8UA_FBVxgau8KOChY8JpukooxQefG9X4YEHJHD9AhOw
+authenticationType: bearer
+body:
+  text: |-
+    [{
+      "group_id": 1,
+      "email": "pruebaa@gmail.com",
+      "name": "string",
+      "role": "USER",
+      "job_title": "string",
+      "password": "string",
+      "is_active": true
+    },
+    {
+      "group_id": 1,
+      "email": "pruebaaa@gmail.com",
+      "name": "string",
+      "role": "USER",
+      "job_title": "string",
+      "password": "string",
+      "is_active": true
+    }]
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: WfJbGkeMaX
+method: POST
+name: Create Users
+sortPriority: 1000.0
+url: http://localhost:3000/admin/users
+urlParameters: []
