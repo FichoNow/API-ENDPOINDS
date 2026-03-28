@@ -1,0 +1,29 @@
+type: http_request
+model: http_request
+id: rq_W4Hi32B42H
+createdAt: 2026-03-28T12:57:00.017944200
+updatedAt: 2026-03-28T12:58:58.407098
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_jKhr7YWc7Z
+authentication:
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiQURNSU5JU1RSQVRPUiJ9LCJpYXQiOjE3NzQ3MDI2NzUsImV4cCI6MTc3NDcwMzU3NSwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.B6TyT8bHvoG8mM5sgMx5eWR54QpX61sTJGsVb0b0KAk
+authenticationType: bearer
+body:
+  text: |-
+    {
+      "group_id": null,
+      "name": "Nuevo nombre del proyecto",
+      "is_active": false
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 7z30aztdKf
+method: PATCH
+name: Upadate Project
+sortPriority: 0.0
+url: http://localhost:3000/admin/project/1
+urlParameters: []
