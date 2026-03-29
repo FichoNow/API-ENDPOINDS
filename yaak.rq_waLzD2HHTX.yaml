@@ -1,0 +1,27 @@
+type: http_request
+model: http_request
+id: rq_waLzD2HHTX
+createdAt: 2026-03-29T12:03:01.545529900
+updatedAt: 2026-03-29T12:11:34.121298700
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_XsYJayQspN
+authentication:
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiQURNSU5JU1RSQVRPUiJ9LCJpYXQiOjE3NzQ3ODU5NTEsImV4cCI6MTc3NDc4Njg1MSwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.eLAcD5lCMqdO8P9vFdW_kvyI6xByo3H2W_gezpHiSzI
+authenticationType: bearer
+body:
+  text: |-
+    {
+      "clock_out": "2026-03-29T17:15:00.000Z"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 6xFj3TyXpM
+method: PATCH
+name: Actualizar fichaje clock_in
+sortPriority: 0.0
+url: http://localhost:3000/user/fichaje/2/clock-out/modified
+urlParameters: []
