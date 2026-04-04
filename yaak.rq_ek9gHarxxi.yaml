@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_ek9gHarxxi
+createdAt: 2026-04-04T14:13:53.600700600
+updatedAt: 2026-04-04T14:14:49.627858800
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_XsYJayQspN
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "ended_at": "2026-04-03T11:30:00.000Z"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: CyHHJ4sGXP
+- enabled: true
+  name: Authorization
+  value: ''
+  id: jcWd65ZJNb
+- enabled: true
+  name: ''
+  value: ''
+  id: jXWtwgQ6qt
+method: PATCH
+name: Cerrar una entry
+sortPriority: 0.0
+url: http://localhost:3000/user/fichajes/2/entries/1/end
+urlParameters: []

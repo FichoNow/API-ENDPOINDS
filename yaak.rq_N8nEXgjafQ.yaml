@@ -1,0 +1,35 @@
+type: http_request
+model: http_request
+id: rq_N8nEXgjafQ
+createdAt: 2026-04-04T14:10:02.574431900
+updatedAt: 2026-04-04T14:23:43.988155700
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_XsYJayQspN
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "project_id": 1,
+      "started_at": "2026-04-03T10:30:00.000Z"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: false
+  name: Authorization
+  value: ''
+  id: d8Ke24yaTu
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 9cxeVtufSw
+- enabled: true
+  name: ''
+  value: ''
+  id: Xa64QpCDqG
+method: POST
+name: Crear entry dentro de fichaje
+sortPriority: 0.0
+url: http://localhost:3000/user/fichajes/2/entries
+urlParameters: []
