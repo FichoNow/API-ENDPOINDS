@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_waLzD2HHTX
 createdAt: 2026-03-29T12:03:01.545529900
-updatedAt: 2026-04-07T14:49:04.479621
+updatedAt: 2026-04-07T14:55:57.893539
 workspaceId: wk_KKeaMNGpRV
-folderId: fl_XsYJayQspN
+folderId: fl_9uPpVfepGT
 authentication:
   token: ${[ accessToken ]}
 authenticationType: bearer
@@ -21,7 +21,7 @@ headers:
   value: application/json
   id: 6xFj3TyXpM
 method: PATCH
-name: Actualizar fichaje clock_in
-sortPriority: 0.0
+name: Modificar salida de un fichaje
+sortPriority: 2000.0
 url: http://localhost:3000/user/fichaje/2/clock-out/modified
 urlParameters: []

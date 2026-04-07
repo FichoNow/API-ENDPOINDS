@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_c95PLbNwUR
 createdAt: 2026-03-29T12:02:53.769872100
-updatedAt: 2026-04-07T14:49:07.448386
+updatedAt: 2026-04-07T14:54:47.377208
 workspaceId: wk_KKeaMNGpRV
-folderId: fl_XsYJayQspN
+folderId: fl_9uPpVfepGT
 authentication:
   token: ${[ accessToken ]}
 authenticationType: bearer
@@ -21,7 +21,7 @@ headers:
   value: application/json
   id: erQtajJXX9
 method: PATCH
-name: Terminar fichaje
-sortPriority: 0.0
+name: Terminar un fichaje
+sortPriority: 333.3333333333333
 url: http://localhost:3000/user/fichaje/2/clock-out
 urlParameters: []

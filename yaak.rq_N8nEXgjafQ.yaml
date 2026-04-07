@@ -2,11 +2,12 @@ type: http_request
 model: http_request
 id: rq_N8nEXgjafQ
 createdAt: 2026-04-04T14:10:02.574431900
-updatedAt: 2026-04-04T14:23:43.988155700
+updatedAt: 2026-04-07T14:56:22.311022
 workspaceId: wk_KKeaMNGpRV
-folderId: fl_XsYJayQspN
-authentication: {}
-authenticationType: null
+folderId: fl_2L8SWr3eS8
+authentication:
+  token: ${[ accessToken ]}
+authenticationType: bearer
 body:
   text: |-
     {
@@ -29,7 +30,7 @@ headers:
   value: ''
   id: Xa64QpCDqG
 method: POST
-name: Crear entry dentro de fichaje
+name: Crear una entry en un fichaje
 sortPriority: 0.0
 url: http://localhost:3000/user/fichajes/2/entries
 urlParameters: []
