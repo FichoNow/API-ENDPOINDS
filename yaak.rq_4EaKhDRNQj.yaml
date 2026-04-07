@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_4EaKhDRNQj
+createdAt: 2026-04-04T14:15:00.097500200
+updatedAt: 2026-04-04T14:15:42.996796100
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_XsYJayQspN
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: ''
+  id: HuEcyn2rzT
+- enabled: true
+  name: ''
+  value: ''
+  id: jgnwAh2YEf
+method: GET
+name: Obtener entries de un fichaje
+sortPriority: 0.0
+url: http://localhost:3000/user/fichajes-entries
+urlParameters:
+- enabled: true
+  name: fichaje_id
+  value: '2'
+  id: mcrycmGU0G

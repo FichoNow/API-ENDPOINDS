@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_FeGsR63vUm
+createdAt: 2026-04-04T11:11:17.662234900
+updatedAt: 2026-04-04T14:13:33.567332800
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_XsYJayQspN
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: ''
+  id: QVCie59s54
+- enabled: true
+  name: ''
+  value: ''
+  id: mAMb8snpwZ
+method: GET
+name: Obtener fichajes de usuario autenticado
+sortPriority: 0.0
+url: http://localhost:3000/user/fichajes
+urlParameters: []
