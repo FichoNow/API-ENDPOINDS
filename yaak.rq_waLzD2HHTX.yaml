@@ -23,5 +23,5 @@ headers:
 method: PATCH
 name: Modificar salida de un fichaje
 sortPriority: 2000.0
-url: http://localhost:3000/user/fichaje/2/clock-out/modified
+url: http://localhost:3000/user/fichajes/2/clock-out/modified
 urlParameters: []

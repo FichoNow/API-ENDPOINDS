@@ -1,17 +1,17 @@
 type: http_request
 model: http_request
-id: rq_TZFyrAY2TS
-createdAt: 2026-03-29T12:02:46.429965100
-updatedAt: 2026-04-07T14:54:40.644344
+id: rq_pOstBrk3aK0
+createdAt: 2026-04-07T15:00:00.000000
+updatedAt: 2026-04-07T15:00:00.000000
 workspaceId: wk_KKeaMNGpRV
-folderId: fl_9uPpVfepGT
+folderId: fl_Brk4s7FoLd0
 authentication:
   token: ${[ accessToken ]}
 authenticationType: bearer
 body:
   text: |-
     {
-      "clock_in": "2026-03-29T08:30:00.000Z"
+      "started_at": "2026-04-03T12:00:00.000Z"
     }
 bodyType: application/json
 description: ''
@@ -19,9 +19,9 @@ headers:
 - enabled: true
   name: Content-Type
   value: application/json
-  id: jDd8kSarrW
+  id: pOstBrkHdr1
 method: POST
-name: Crear un fichaje
+name: Iniciar un descanso
 sortPriority: 0.0
-url: http://localhost:3000/user/fichajes
+url: http://localhost:3000/user/fichajes/2/breaks
 urlParameters: []

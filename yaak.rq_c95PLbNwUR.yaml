@@ -23,5 +23,5 @@ headers:
 method: PATCH
 name: Terminar un fichaje
 sortPriority: 333.3333333333333
-url: http://localhost:3000/user/fichaje/2/clock-out
+url: http://localhost:3000/user/fichajes/2/clock-out
 urlParameters: []

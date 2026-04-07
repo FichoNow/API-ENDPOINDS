@@ -23,9 +23,5 @@ headers:
 method: GET
 name: Obtener entries de un fichaje
 sortPriority: 1000.0
-url: http://localhost:3000/user/fichajes-entries
-urlParameters:
-- enabled: true
-  name: fichaje_id
-  value: '2'
-  id: mcrycmGU0G
+url: http://localhost:3000/user/fichajes/2/entries
+urlParameters: []

@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_ztwC6y96St
-createdAt: 2026-03-29T12:02:25.447651800
-updatedAt: 2026-04-07T14:49:15.914832
+id: rq_dElFch4j3X0
+createdAt: 2026-04-07T15:00:00.000000
+updatedAt: 2026-04-07T15:00:00.000000
 workspaceId: wk_KKeaMNGpRV
-folderId: fl_XsYJayQspN
+folderId: fl_9uPpVfepGT
 authentication:
   token: ${[ accessToken ]}
 authenticationType: bearer
@@ -13,7 +13,7 @@ bodyType: null
 description: ''
 headers: []
 method: DELETE
-name: Logout User
-sortPriority: 0.0
-url: http://localhost:3000/user/logout
+name: Eliminar un fichaje
+sortPriority: 166.6666666666667
+url: http://localhost:3000/user/fichajes/1
 urlParameters: []
