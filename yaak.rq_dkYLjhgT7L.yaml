@@ -2,11 +2,11 @@ type: http_request
 model: http_request
 id: rq_dkYLjhgT7L
 createdAt: 2026-03-19T19:33:34.688132300
-updatedAt: 2026-03-22T23:00:50.096467200
+updatedAt: 2026-04-07T14:48:37.250939
 workspaceId: wk_KKeaMNGpRV
 folderId: fl_jKhr7YWc7Z
 authentication:
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjIsImNvbXBhbnlfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiQURNSU5JU1RSQVRPUiJ9LCJpYXQiOjE3NzQyMjA0NDIsImV4cCI6MTc3NDIyMTM0MiwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIyIn0.OnXlL6GEgv2UEZgQ6EtFIhqLmZxGQGkGds_98TZCWBg
+  token: ${[ accessToken ]}
 authenticationType: bearer
 body:
   text: "{\n  \"name\": \"paquio Navarro\", \n}"
