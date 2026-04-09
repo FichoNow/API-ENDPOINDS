@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_HpVYgSzkZQ
 createdAt: 2026-03-22T20:28:47.845861700
-updatedAt: 2026-04-07T14:48:27.979814
+updatedAt: 2026-04-09T10:59:10.450997600
 workspaceId: wk_KKeaMNGpRV
 folderId: fl_jKhr7YWc7Z
 authentication:
@@ -13,8 +13,8 @@ body:
   text: |-
     {
       "group_id": 1,
-      "email": "tutitos@gmail.com",
-      "name": "Tutos puto",
+      "email": "noel@gmail.com",
+      "name": "Noel Riart",
       "role": "USER",
       "password": "string",
       "is_active": true

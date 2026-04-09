@@ -1,0 +1,19 @@
+type: http_request
+model: http_request
+id: rq_gEtBrk5FchJ0
+createdAt: 2026-04-09T10:00:00.000000
+updatedAt: 2026-04-09T10:00:00.000000
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_Brk4s7FoLd0
+authentication:
+  token: ${[ accessToken ]}
+authenticationType: bearer
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Obtener descansos de un fichaje
+sortPriority: -1.0
+url: http://localhost:3000/user/fichajes/2/breaks
+urlParameters: []
