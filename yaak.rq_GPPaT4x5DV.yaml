@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_GPPaT4x5DV
+createdAt: 2026-04-14T20:25:18.020163
+updatedAt: 2026-04-14T20:28:29.377630700
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_XsYJayQspN
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiQURNSU5JU1RSQVRPUiJ9LCJpYXQiOjE3NzYxOTgzMDgsImV4cCI6MTc3NjE5OTIwOCwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.z5_8bacHDKDcVHSUQQyxENF0uDWF24DJeYTNREzGrSY
+  id: uWqdYJrbeA
+- enabled: true
+  name: ''
+  value: ''
+  id: wg7jetmqup
+method: DELETE
+name: Cancelar solicitud
+sortPriority: 0.0
+url: http://localhost:3000/user/requests/99999
+urlParameters: []

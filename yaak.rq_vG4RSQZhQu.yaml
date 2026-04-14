@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_vG4RSQZhQu
+createdAt: 2026-04-14T20:13:05.389116200
+updatedAt: 2026-04-14T20:25:43.056661200
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_XsYJayQspN
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiQURNSU5JU1RSQVRPUiJ9LCJpYXQiOjE3NzYxOTgzMDgsImV4cCI6MTc3NjE5OTIwOCwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.z5_8bacHDKDcVHSUQQyxENF0uDWF24DJeYTNREzGrSY
+  id: PBYVg8gxZD
+- enabled: true
+  name: ''
+  value: ''
+  id: 6sbVWNi4eD
+method: GET
+name: Ver solicitudes de usuario
+sortPriority: 0.0
+url: http://localhost:3000/user/requests
+urlParameters: []

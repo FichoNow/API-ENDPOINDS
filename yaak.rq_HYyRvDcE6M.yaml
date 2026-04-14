@@ -1,0 +1,39 @@
+type: http_request
+model: http_request
+id: rq_HYyRvDcE6M
+createdAt: 2026-04-14T18:55:28.333718500
+updatedAt: 2026-04-14T20:14:46.124629300
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_XsYJayQspN
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "type": "MEDICAL_APPOINTMENT",
+      "start_date": "2026-04-18",
+      "end_date": "2026-04-18",
+      "start_time": "10:00:00",
+      "end_time": "12:00:00",
+      "comment": "Cita con especialista"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiQURNSU5JU1RSQVRPUiJ9LCJpYXQiOjE3NzYxOTM4NTgsImV4cCI6MTc3NjE5NDc1OCwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.43_ngEn-ml5E79JH7_NgeFuAfBUUYoiSodyr-TWEZgc
+  id: bakz0t3jga
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: BjbRssGsgB
+- enabled: true
+  name: ''
+  value: ''
+  id: WBWC9H7G8H
+method: POST
+name: Crear solicitud
+sortPriority: 0.0
+url: http://localhost:3000/user/requests
+urlParameters: []
