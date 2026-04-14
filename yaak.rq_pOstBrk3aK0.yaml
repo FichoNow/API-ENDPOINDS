@@ -1,19 +1,17 @@
 type: http_request
 model: http_request
-id: rq_cpU7kiRMfK
-createdAt: 2026-03-22T20:29:42.873100400
-updatedAt: 2026-04-07T14:49:19.706208
+id: rq_pOstBrk3aK0
+createdAt: 2026-04-07T15:00:00.000000
+updatedAt: 2026-04-07T15:00:00.000000
 workspaceId: wk_KKeaMNGpRV
-folderId: fl_XsYJayQspN
+folderId: fl_Brk4s7FoLd0
 authentication:
   token: ${[ accessToken ]}
 authenticationType: bearer
 body:
   text: |-
     {
-      "name": "Prueba",
-      "email": "asfasfasf@asfasfasf.conm",
-      "password": "a"
+      "started_at": "2026-04-03T12:00:00.000Z"
     }
 bodyType: application/json
 description: ''
@@ -21,9 +19,9 @@ headers:
 - enabled: true
   name: Content-Type
   value: application/json
-  id: QsWZHnyvxk
-method: PATCH
-name: Update User
+  id: pOstBrkHdr1
+method: POST
+name: Iniciar un descanso
 sortPriority: 0.0
-url: http://localhost:3000/user/update
+url: http://localhost:3000/user/fichajes/2/breaks
 urlParameters: []

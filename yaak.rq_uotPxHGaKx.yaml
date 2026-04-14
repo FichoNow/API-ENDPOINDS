@@ -2,11 +2,11 @@ type: http_request
 model: http_request
 id: rq_uotPxHGaKx
 createdAt: 2026-03-28T12:56:49.934911100
-updatedAt: 2026-03-28T12:58:13.474943500
+updatedAt: 2026-04-07T14:48:50.214238
 workspaceId: wk_KKeaMNGpRV
 folderId: fl_jKhr7YWc7Z
 authentication:
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiQURNSU5JU1RSQVRPUiJ9LCJpYXQiOjE3NzQ3MDI2NzUsImV4cCI6MTc3NDcwMzU3NSwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.B6TyT8bHvoG8mM5sgMx5eWR54QpX61sTJGsVb0b0KAk
+  token: ${[ accessToken ]}
 authenticationType: bearer
 body:
   text: |-

@@ -2,11 +2,12 @@ type: http_request
 model: http_request
 id: rq_ek9gHarxxi
 createdAt: 2026-04-04T14:13:53.600700600
-updatedAt: 2026-04-04T14:14:49.627858800
+updatedAt: 2026-04-07T19:13:05.597655
 workspaceId: wk_KKeaMNGpRV
-folderId: fl_XsYJayQspN
-authentication: {}
-authenticationType: null
+folderId: fl_2L8SWr3eS8
+authentication:
+  token: ${[ accessToken ]}
+authenticationType: bearer
 body:
   text: |-
     {
@@ -28,7 +29,7 @@ headers:
   value: ''
   id: jXWtwgQ6qt
 method: PATCH
-name: Cerrar una entry
-sortPriority: 0.0
+name: Cerrar/modificar una entry de un fichaje
+sortPriority: 2000.0
 url: http://localhost:3000/user/fichajes/2/entries/1/end
 urlParameters: []

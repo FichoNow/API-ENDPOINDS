@@ -1,0 +1,19 @@
+type: http_request
+model: http_request
+id: rq_gEtC4l3ndr0
+createdAt: 2026-04-09T10:00:00.000000
+updatedAt: 2026-04-09T10:00:00.000000
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_c4l3ndr10
+authentication:
+  token: ${[ accessToken ]}
+authenticationType: bearer
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Obtener calendario mensual
+sortPriority: 1000.0
+url: http://localhost:3000/user/calendar?year=2026&month=4
+urlParameters: []

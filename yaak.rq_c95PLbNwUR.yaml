@@ -2,11 +2,11 @@ type: http_request
 model: http_request
 id: rq_c95PLbNwUR
 createdAt: 2026-03-29T12:02:53.769872100
-updatedAt: 2026-03-29T12:07:16.848422900
+updatedAt: 2026-04-07T14:54:47.377208
 workspaceId: wk_KKeaMNGpRV
-folderId: fl_XsYJayQspN
+folderId: fl_9uPpVfepGT
 authentication:
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiQURNSU5JU1RSQVRPUiJ9LCJpYXQiOjE3NzQ3ODU5NTEsImV4cCI6MTc3NDc4Njg1MSwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.eLAcD5lCMqdO8P9vFdW_kvyI6xByo3H2W_gezpHiSzI
+  token: ${[ accessToken ]}
 authenticationType: bearer
 body:
   text: |-
@@ -21,7 +21,7 @@ headers:
   value: application/json
   id: erQtajJXX9
 method: PATCH
-name: Terminar fichaje
-sortPriority: 0.0
-url: http://localhost:3000/user/fichaje/2/clock-out
+name: Terminar un fichaje
+sortPriority: 333.3333333333333
+url: http://localhost:3000/user/fichajes/2/clock-out
 urlParameters: []
