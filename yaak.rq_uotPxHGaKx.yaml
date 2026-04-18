@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_uotPxHGaKx
 createdAt: 2026-03-28T12:56:49.934911100
-updatedAt: 2026-04-07T14:48:50.214238
+updatedAt: 2026-04-18T18:10:25.721438400
 workspaceId: wk_KKeaMNGpRV
 folderId: fl_jKhr7YWc7Z
 authentication:
@@ -11,6 +11,7 @@ authenticationType: bearer
 body:
   text: |-
     {
+      "department_id": 1,
       "group_id": 1,
       "name": "Proyecto Alpha",
       "is_active": true

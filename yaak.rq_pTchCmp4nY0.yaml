@@ -1,0 +1,33 @@
+type: http_request
+model: http_request
+id: rq_pTchCmp4nY0
+createdAt: 2026-04-18T18:00:00.000000000
+updatedAt: 2026-04-18T18:00:00.000000000
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_sup3r4dm1n
+authentication:
+  token: ${[ accessToken ]}
+authenticationType: bearer
+body:
+  text: |-
+    {
+      "name": "Gimbernat S.A.",
+      "cif_nif": "A12345678",
+      "email": "contacto@gimbernat.com",
+      "address_line": "Calle Mayor 1",
+      "city": "Barcelona",
+      "postal_code": "08001",
+      "is_active": true
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: pTchCmpHdr1
+method: PATCH
+name: Update Company
+sortPriority: 0.0
+url: http://localhost:3000/superadmin/company
+urlParameters: []
