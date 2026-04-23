@@ -1,0 +1,38 @@
+type: http_request
+model: http_request
+id: rq_R3g1st3rC0
+createdAt: 2026-04-23T00:00:00.000000000
+updatedAt: 2026-04-23T00:00:00.000000000
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_gB3G28XJ6h
+authentication: {}
+authenticationType: none
+body:
+  text: |-
+    {
+      "company": {
+        "name": "Gimbernat S.L.",
+        "cif_nif": "B12345678",
+        "email": "contacto@gimbernat.com",
+        "address_line": "Calle Mayor, 1",
+        "city": "Barcelona",
+        "postal_code": "08001"
+      },
+      "user": {
+        "name": "Juan García",
+        "email": "admin@gimbernat.com",
+        "password": "miContraseña123"
+      }
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: rR3g1st3rH1
+method: POST
+name: Register
+sortPriority: -1.0
+url: http://localhost:3000/auth/register
+urlParameters: []
