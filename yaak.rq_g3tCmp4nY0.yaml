@@ -1,0 +1,24 @@
+type: http_request
+model: http_request
+id: rq_g3tCmp4nY0
+createdAt: 2026-04-27T00:00:00.000000000
+updatedAt: 2026-04-27T00:00:00.000000000
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_jKhr7YWc7Z
+authentication:
+  disabled: false
+  token: ${[ accessToken ]}
+authenticationType: bearer
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: ''
+  value: ''
+  id: cmp4nYhdr1
+method: GET
+name: Get Company Info
+sortPriority: 2000.0
+url: http://localhost:3000/admin/company-info
+urlParameters: []
