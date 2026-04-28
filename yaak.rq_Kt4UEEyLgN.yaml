@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_Kt4UEEyLgN
+createdAt: 2026-04-28T19:07:12.040187
+updatedAt: 2026-04-28T20:50:01.273679200
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_jKhr7YWc7Z
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "review_comment": "Aprobado desde el panel admin"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImRlcGFydG1lbnRfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiU1VQRVJBRE1JTiJ9LCJpYXQiOjE3Nzc0MDkzODQsImV4cCI6MTc3NzQxMDI4NCwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.PgcnMQ14SA1k9WVN0u7AmPyD714gUHC2VtuinWkT2Io
+  id: Qz3yVVihXj
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: ZXMAgK3yyb
+- enabled: true
+  name: ''
+  value: ''
+  id: tSZpCtNYkA
+method: PATCH
+name: Admin-Solicitudes-Aprobar solicitud
+sortPriority: 0.0
+url: http://localhost:3000/admin/requests/4/approve
+urlParameters: []

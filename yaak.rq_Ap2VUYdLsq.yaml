@@ -2,13 +2,13 @@ type: http_request
 model: http_request
 id: rq_Ap2VUYdLsq
 createdAt: 2026-02-26T19:16:16.585219100
-updatedAt: 2026-03-24T14:26:25.799013500
+updatedAt: 2026-04-28T17:59:08.807224100
 workspaceId: wk_KKeaMNGpRV
 folderId: fl_gB3G28XJ6h
 authentication: {}
 authenticationType: none
 body:
-  text: "{\n  \"email\": \"a@a.com\", \n  \"password\": \"1\"\n}"
+  text: "{\n  \"email\": \"a@a.com\", \n  \"password\": \"1234\"\n}"
 bodyType: application/json
 description: ''
 headers:
