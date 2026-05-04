@@ -1,0 +1,36 @@
+type: http_request
+model: http_request
+id: rq_qpf6ySCUqE
+createdAt: 2026-05-03T14:56:07.559289400
+updatedAt: 2026-05-03T14:57:47.671965100
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_jKhr7YWc7Z
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "name": "Proyecto prueba admin actualizado",
+      "group_id": null,
+      "is_active": false
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImRlcGFydG1lbnRfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiU1VQRVJBRE1JTiJ9LCJpYXQiOjE3Nzc4MTk5ODQsImV4cCI6MTc3NzgyMDg4NCwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.kgMN2G5bu_bL99l8YsczML1le3WZzzWKHf7srV5scKg
+  id: 3hJKY7Za8F
+- enabled: true
+  name: ''
+  value: ''
+  id: jdIUBA6drx
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: YPVK7E3Xhk
+method: PATCH
+name: Admin-Projectos-Editar projecto
+sortPriority: 2000.0
+url: http://localhost:3000/admin/project/7
+urlParameters: []
