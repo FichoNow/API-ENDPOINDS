@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_hithBGHj6b
+createdAt: 2026-04-28T18:03:19.369077
+updatedAt: 2026-04-28T18:08:59.153152600
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_jKhr7YWc7Z
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "review_comment": "No se puede aprobar por falta de cobertura"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImRlcGFydG1lbnRfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiU1VQRVJBRE1JTiJ9LCJpYXQiOjE3NzczOTk1MjUsImV4cCI6MTc3NzQwMDQyNSwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.7JF1XSXdkqd-7clwhx6R0TWnFeAqaKdGkKE6ug2xt9k
+  id: tcvMAHy57f
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: Y4gzW4QjHB
+- enabled: true
+  name: ''
+  value: ''
+  id: fx5vEKG6xz
+method: PATCH
+name: Admin-Solicitudes-Rechazar solicitud
+sortPriority: 0.0
+url: http://localhost:3000/admin/requests/2/reject
+urlParameters: []

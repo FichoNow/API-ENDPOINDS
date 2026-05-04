@@ -1,0 +1,37 @@
+type: http_request
+model: http_request
+id: rq_Xy4JDajfaR
+createdAt: 2026-05-03T14:54:25.655299800
+updatedAt: 2026-05-03T14:55:42.074791800
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_jKhr7YWc7Z
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "department_id": 1,
+      "group_id": null,
+      "name": "Proyecto prueba admin",
+      "is_active": true
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImRlcGFydG1lbnRfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiU1VQRVJBRE1JTiJ9LCJpYXQiOjE3Nzc4MTk5ODQsImV4cCI6MTc3NzgyMDg4NCwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.kgMN2G5bu_bL99l8YsczML1le3WZzzWKHf7srV5scKg
+  id: DUZZ0NDNed
+- enabled: true
+  name: ''
+  value: ''
+  id: 4svsZYNPJH
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: rKh5yhkY9y
+method: POST
+name: Admin-Projectos-Crear projecto
+sortPriority: 2000.0
+url: http://localhost:3000/admin/project
+urlParameters: []

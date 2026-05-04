@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_TaXCvEEnTB
+createdAt: 2026-04-28T17:58:27.211620200
+updatedAt: 2026-04-28T18:02:04.874358800
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_jKhr7YWc7Z
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImRlcGFydG1lbnRfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiU1VQRVJBRE1JTiJ9LCJpYXQiOjE3NzczOTkxNTAsImV4cCI6MTc3NzQwMDA1MCwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.RGdX0_-L5fHqrLLOlEj6ipsY_pCVnY9p58ssTkY8ZPE
+  id: NC9sMcuaAB
+- enabled: true
+  name: ''
+  value: ''
+  id: E730AfgqK7
+method: GET
+name: Admin-Solicitudes-Listar por departamento
+sortPriority: 0.0
+url: http://localhost:3000/admin/requests?departmentId=1
+urlParameters: []

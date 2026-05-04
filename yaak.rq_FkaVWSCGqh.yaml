@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_FkaVWSCGqh
+createdAt: 2026-05-03T14:50:57.264896700
+updatedAt: 2026-05-03T14:53:29.487437200
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_jKhr7YWc7Z
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImRlcGFydG1lbnRfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiU1VQRVJBRE1JTiJ9LCJpYXQiOjE3Nzc4MTk5ODQsImV4cCI6MTc3NzgyMDg4NCwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.kgMN2G5bu_bL99l8YsczML1le3WZzzWKHf7srV5scKg
+  id: gsai4tRquT
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: T3TfstQmmY
+- enabled: true
+  name: ''
+  value: ''
+  id: tg50zMPQBB
+method: GET
+name: Admin-Projectos-Listar por departamento
+sortPriority: 2000.0
+url: http://localhost:3000/admin/projects
+urlParameters:
+- enabled: true
+  name: departmentId
+  value: '1'
+  id: 0YFQD7mq0Y
