@@ -1,0 +1,37 @@
+type: http_request
+model: http_request
+id: rq_dvoRYXRnZ5
+createdAt: 2026-05-04T21:00:25.133278700
+updatedAt: 2026-05-04T21:03:02.804428300
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_jKhr7YWc7Z
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "group_id": 1,
+      "template_id": 7,
+      "start_date": "2026-05-01",
+      "end_date": null
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: g6J9iAE7sW
+- enabled: true
+  name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImRlcGFydG1lbnRfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiU1VQRVJBRE1JTiJ9LCJpYXQiOjE3Nzc5Mjg1MTMsImV4cCI6MTc3NzkyOTQxMywiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.mtYOt-LsbmU-AsfsxqgI7UQNRAEvJpBtOYtEGw_uGXo
+  id: 66rzthkfRt
+- enabled: true
+  name: ''
+  value: ''
+  id: UJ4U9EPqzE
+method: POST
+name: Admin-Horarios-Asignar plantilla a grupo
+sortPriority: -1777914232776.0
+url: http://localhost:3000/admin/schedule/group-assignment
+urlParameters: []

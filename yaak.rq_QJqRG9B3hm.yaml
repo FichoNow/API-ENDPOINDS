@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_QJqRG9B3hm
+createdAt: 2026-05-04T17:03:52.777610100
+updatedAt: 2026-05-04T17:05:39.170170500
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_jKhr7YWc7Z
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: QxvR4FHBIz
+- enabled: true
+  name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImRlcGFydG1lbnRfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiU1VQRVJBRE1JTiJ9LCJpYXQiOjE3Nzc5MTQzMjcsImV4cCI6MTc3NzkxNTIyNywiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.D5Q076SsX2LCHz1vFDEaPkHXj2vUiubdrZrwZW7lrCw
+  id: r2TSpdqVwD
+- enabled: true
+  name: ''
+  value: ''
+  id: NBm48Dx2KS
+method: GET
+name: Admin-Horarios-Listar plantillas por departamento
+sortPriority: -1777914232776.0
+url: http://localhost:3000/admin/schedules?departmentId=1
+urlParameters: []
