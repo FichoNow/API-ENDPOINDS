@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_wvBnTTEjrT
 createdAt: 2026-03-24T10:39:04.469901700
-updatedAt: 2026-03-24T15:07:18.999505600
+updatedAt: 2026-04-28T09:57:35.239521700
 workspaceId: wk_KKeaMNGpRV
 folderId: fl_gB3G28XJ6h
 authentication: {}
@@ -10,7 +10,7 @@ authenticationType: null
 body:
   text: |-
     {
-      "refreshToken": "jKNqE5eTiAtFnFK_jwrDNh4EluV89_nSCv25RaTZRXYm837HgLIMJIK5yqdjFwFdqfPYgiKbP6IZRSUfxCICEA"
+      "refreshToken": "qnwL-GYbPdQwpN1rQes3F1hvlk1sfiIg-BwJEe_WuvUOS64Cn8BPJW_bj6HGZx89aN0oN0cT_3ghyX5xj_MbyQ"
     }
 bodyType: application/json
 description: ''

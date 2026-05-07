@@ -1,0 +1,31 @@
+type: http_request
+model: http_request
+id: rq_n26
+createdAt: 2026-05-06T00:00:00.000000000
+updatedAt: 2026-05-06T00:00:00.000000000
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_jKhr7YWc7Z
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "department_id": 1,
+      "name": "Grupo Nuevo"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImRlcGFydG1lbnRfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiU1VQRVJBRE1JTiJ9LCJpYXQiOjE3Nzc5MTQzMjcsImV4cCI6MTc3NzkxNTIyNywiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.D5Q076SsX2LCHz1vFDEaPkHXj2vUiubdrZrwZW7lrCw
+  id: h01
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: h02
+method: POST
+name: Admin-Grupos-Crear grupo
+sortPriority: -1777914232776.0
+url: http://localhost:3000/admin/group
+urlParameters: []

@@ -2,12 +2,12 @@ type: workspace
 model: workspace
 id: wk_KKeaMNGpRV
 createdAt: 2026-02-26T19:13:13.093379600
-updatedAt: 2026-02-26T19:13:13.093379800
+updatedAt: 2026-04-28T14:51:32.799298800
 authentication: {}
 authenticationType: null
 description: ''
 headers: []
-name: Yaak
+name: FichoNow
 encryptionKeyChallenge: null
 settingValidateCertificates: true
 settingFollowRedirects: true

@@ -1,0 +1,88 @@
+type: http_request
+model: http_request
+id: rq_T293i83Nkf
+createdAt: 2026-05-04T20:46:26.569248700
+updatedAt: 2026-05-04T20:47:54.959533200
+workspaceId: wk_KKeaMNGpRV
+folderId: fl_jKhr7YWc7Z
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "department_id": 1,
+      "name": "Horario prueba admin",
+      "description": "Plantilla creada desde Yaak para probar horarios",
+      "is_active": true,
+      "days": [
+        {
+          "weekday": 1,
+          "is_working_day": true,
+          "start_time": "09:00:00",
+          "end_time": "18:00:00",
+          "break_minutes": 60
+        },
+        {
+          "weekday": 2,
+          "is_working_day": true,
+          "start_time": "09:00:00",
+          "end_time": "18:00:00",
+          "break_minutes": 60
+        },
+        {
+          "weekday": 3,
+          "is_working_day": true,
+          "start_time": "09:00:00",
+          "end_time": "18:00:00",
+          "break_minutes": 60
+        },
+        {
+          "weekday": 4,
+          "is_working_day": true,
+          "start_time": "09:00:00",
+          "end_time": "18:00:00",
+          "break_minutes": 60
+        },
+        {
+          "weekday": 5,
+          "is_working_day": true,
+          "start_time": "09:00:00",
+          "end_time": "15:00:00",
+          "break_minutes": 0
+        },
+        {
+          "weekday": 6,
+          "is_working_day": false,
+          "start_time": null,
+          "end_time": null,
+          "break_minutes": 0
+        },
+        {
+          "weekday": 7,
+          "is_working_day": false,
+          "start_time": null,
+          "end_time": null,
+          "break_minutes": 0
+        }
+      ]
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RDbGFpbXMiOnsiaWQiOjEsImNvbXBhbnlfaWQiOjEsImRlcGFydG1lbnRfaWQiOjEsImdyb3VwX2lkIjoxLCJyb2xlIjoiU1VQRVJBRE1JTiJ9LCJpYXQiOjE3Nzc5Mjc2NTAsImV4cCI6MTc3NzkyODU1MCwiYXVkIjoiRmljaGFqZUFwcC1jbGllbnQiLCJpc3MiOiJBcGktRnJhbi1KYW4iLCJzdWIiOiIxIn0.d0BZh9OgGkW9Yk7hs8S2dYKRZBEbReJLVLxORPw0Hlc
+  id: Ky8SEt26YK
+- enabled: true
+  name: ''
+  value: ''
+  id: 2rj26eiy52
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: R7KZN5RCf8
+method: POST
+name: Admin-Horarios-Crear plantillas
+sortPriority: -1777914232776.0
+url: http://localhost:3000/admin/schedule
+urlParameters: []
